@@ -1,0 +1,71 @@
+.posts img{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	float: left;
+	padding-right: 5px;
+}
+
+.posts{
+	background: #fff;
+	padding: 5px;
+}
+
+.posts p{
+	margin-left: 5px;
+}
+
+.sub-bungkus img{
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	float: left;
+	padding-right: 10px;
+}
+
+.sub-bungkus{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+	background: #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.sub-bungkus .sub-content a{
+	color: #004B79;
+}
+
+.postPopuler{
+	position: absolute;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	.postPopuler{
+		position: inherit;
+	}
+	
+  .sub-bungkus img{
+  	float: inherit;
+  	width: 100%;
+  	padding-right: 0px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.postPopuler{
+		position: inherit;
+	}
+	 .sub-bungkus img{
+	 	float: inherit;
+	 	width: 100%;
+	 	padding-right: 0px;
+	 	padding: 10px;
+	 }
+}
